@@ -1,0 +1,32 @@
+$ <-- commentary
+$ Source code made by illi4er
+$
+$ Use this file to change start parameters:
+$
+$ auto - 0 / 1 - ask some parameters when start or use them from this file
+$ grad - ... - adds symbol gradient (you can add yours) - from lower to higher brightness
+$ grmd - 0 - ... - gradient mode - choose one of gradients
+$ file - ... - file that programm will use (write without extension) - if auto is 1, this parameter wouldn't be used
+$ extn - png/jpg/... - extension (write without dot) - if auto is 1, this parameter wouldn't be used
+$ sywd - 0 - ... - symbol width
+$ syhg - 0 - ... - symbol height
+$ phph - ... - path to folder with photoes - recomended to add your photoes to basic folder and not change this parameter
+$ phtx - ... - path to folder with text - recomended to not change this parameter for easily finding text files
+$ Still you can change all parameters, if you want
+$
+$ Parameters are written in this style - "pram~value~"
+$
+$ You can add your gradient by adding new line with parameter grad
+
+auto~0~
+grad~ .:!/r(l1Z4H9W8$@~
+grad~ :~
+grmd~0~
+file~file~
+extn~png~
+sywd~11~
+syhg~24~
+phph~Photoes/~
+phtx~Text/~
+
+$v1.0
